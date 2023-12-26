@@ -1,0 +1,45 @@
+.caption{
+     bottom: 20px;
+     right: 20px;
+     left:  20px;
+}
+#box{
+     height: 800px;
+     width: 100%;
+     background-color:rgba(0, 0, 0,0.5);
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     
+}
+#item{
+     background-image: url(imgs/portfolio/1.jpg);
+     height: 600px;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+#close{
+     position: absolute;
+     top: 20px;
+     right: 30px;
+}
+i{
+     font-size: 25px;
+     padding: 15px;
+     cursor: pointer;
+}
+ img{
+     cursor: pointer;
+}
